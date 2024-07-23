@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/roman-iakimenok/frontend-project-80/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/roman-iakimenok/frontend-project-80/actions)",
   "bin": {
     "brain-games": "bin/brain-games.js"
@@ -11,5 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
